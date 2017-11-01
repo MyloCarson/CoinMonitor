@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">CyrptoMonitor</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string-array name="coins">
+        <item>BTC</item>
+        <item>ETH</item>
+    </string-array>
+    <string name="notify">NOTIFY ME</string>
+    <string name="when">WHEN COIN PRICE</string>
+    <string name="by">BY</string>
+    <string name="in">IN</string>
+    <string name="save_setting">SAVE SETTINGS</string>
+    <string name="clear_setting">CLEAR SETTINGS</string>
+    <string name="points">points</string>
+    <string-array name="actionOption">
+        <item>rises</item>
+        <item>drops</item>
+    </string-array>
+    <string-array name="pricesOption">
+        <item>100 points</item>
+        <item>500 points</item>
+    </string-array>
+    <string-array name="timeOption">
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+    </string-array>
+    <string-array name="countries">
+        <item>Nigeria (NGN)</item>
+        <item>Australian Dollar (AUD)</item>
+        <item>British Pound (GBP)</item>
+        <item>Canadian Dollar (CAD)</item>
+        <item>Chilean Peso (CLP)</item>
+        <item>Chinese Yuan Renminbi (CNY)</item>
+        <item>Czech Koruna (CZK)</item>
+        <item>Danish Krone (DKK)</item>
+        <item>Euro (EUR)</item>
+        <item>Hong Kong Dollar (HKD)</item>
+        <item>Hungarian Forint (HUF)</item>
+        <item>Indian Rupee (INR)</item>
+        <item>Indonesian Rupiah (IDR)</item>
+        <item>Israeli New Shekel (ILS)</item>
+        <item>Japanese Yen (JPY)</item>
+        <item>Korean Won (KRW)</item>
+        <item>Malaysian Ringgit (MYR)</item>
+        <item>Brazilian Real (BRL)</item>
+        <item>Mexican Peso (MXN)</item>
+        <item>New Zealand Dollar (NZD)</item>
+
+    </string-array>
+    <string name="coin">Coin</string>
+    <string name="one">1</string>
+    <string name="amount">Amount</string>
+    <string name="against">AGAINST</string>
+    <string name="result">Result</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

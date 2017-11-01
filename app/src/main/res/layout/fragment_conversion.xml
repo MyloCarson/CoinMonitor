@@ -1,0 +1,144 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true"
+    tools:context="mylocarson.coinmonitor.fragment.ConversionFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="@android:color/white"
+            app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            android:background="?attr/colorPrimary">
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/coin"
+                        android:id="@+id/coinType"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="clip_horizontal"
+                        android:textSize="@dimen/textSize"/>
+                    <EditText
+                        android:layout_width="90dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/coinPrice"
+                        android:inputType="number"
+                        android:text="@string/one"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="clip_horizontal"
+                        />
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/coin"
+                        android:id="@+id/currencyType"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="clip_horizontal"
+                        android:textSize="@dimen/textSize"/>
+                    <EditText
+                        android:layout_width="120dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/currencyPrice"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:hint="@string/amount"
+                        android:textColorHint="@color/black"
+                        />
+
+                </LinearLayout>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/result"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="clip_horizontal"
+                    android:layout_marginTop="6dp"
+                    android:textSize="@dimen/textSize"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/result"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="clip_horizontal"
+                    android:textSize="@dimen/textSize"/>
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+    
+
+</FrameLayout>
